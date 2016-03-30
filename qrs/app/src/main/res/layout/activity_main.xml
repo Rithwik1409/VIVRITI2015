@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:id="@+id/cameraContainer"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:orientation="vertical" >
+
+<FrameLayout
+    android:id="@+id/cameraPreview"
+    android:layout_width="match_parent"
+    android:layout_height="413dp"
+    android:layout_weight="5.78" >
+
+    <ImageButton
+        android:layout_width="62dp"
+        android:layout_height="62dp"
+        android:id="@+id/imageButton"
+        android:layout_gravity="left|top"
+        android:background="@mipmap/flash" />
+</FrameLayout>
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal" >
+
+    <Button
+        android:id="@+id/ScanButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_weight="1"
+        android:text="Reset" />
+
+</LinearLayout>
+
+</LinearLayout>

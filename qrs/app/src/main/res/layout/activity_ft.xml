@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.zlatan.student.qrs.FT"
+    android:background="@mipmap/background1">
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/scrollView6"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:fillViewport="false">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:id="@+id/imageView5"
+                android:background="@mipmap/thirdfloor_final" />
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="8A"
+                android:id="@+id/class_8a"
+                android:background="#00000000"
+                android:textColor="#007AFF" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="8B"
+                android:id="@+id/class_8b"
+                android:background="#00000000"
+                android:textColor="#007AFF" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="9A"
+                android:id="@+id/class_9a"
+                android:background="#00000000"
+                android:textColor="#007AFF" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="9B"
+                android:id="@+id/class_9b"
+                android:background="#00000000"
+                android:textColor="#007AFF" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="10A"
+                android:id="@+id/class_10a"
+                android:background="#00000000"
+                android:textColor="#007AFF" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="10B"
+                android:id="@+id/class_10b"
+                android:background="#00000000"
+                android:textColor="#007AFF" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="10C"
+                android:id="@+id/class_10c"
+                android:background="#00000000"
+                android:textColor="#007AFF" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Smartboard Room"
+                android:id="@+id/sbr"
+                android:background="#00000000"
+                android:textColor="#007AFF" />
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>
+
